@@ -1,0 +1,20 @@
+.navbar{
+    background: white;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.navbar-brand{
+    color: rgb(15, 84, 145);
+}
+
+.link{
+    color: rgb(15, 84, 145);
+    padding: 10px;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active{
+    text-decoration: none;
+}
