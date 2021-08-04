@@ -28,6 +28,7 @@
     "bootstrap": "^5.0.2",
     "express": "^4.17.1",
     "express-validator": "^6.12.1",
+    "font-awesome": "^4.7.0",
     "if-env": "^1.0.4",
     "mongoose": "^5.13.5"
   }

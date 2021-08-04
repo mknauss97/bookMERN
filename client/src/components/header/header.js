@@ -4,15 +4,16 @@ import './header.css'
 
 const Header = () => {
     return (
-        <div className="jumbotron d-flex flex-column align-item-center justify-content-center">
-            <h2> Book Search</h2>
-            <p>Find and Save your Favorite Books</p>
-
+        <div className="jumbotron">
+            <div className="d-flex justify-content-center ft-light">
+                <h1> Book Search</h1>
+                </div>
+                <h3 className="d-flex justify-content-center">Find and Save your Favorite Books</h3>
+           
             <nav className="navbar navbar-expand-lg">
-                <div className="container-fluid">
-                    <a className="navbar-brand" href='/'>MERN Google Books</a>
+                <div className="container-fluid d-flex justify-content-center">
                     <div className="empty" id="navbarNav">
-                        <ul className="navbar-nav">
+                        <ul className="navbar-nav mr-auto">
                             <li className="nav-item">
                                 <Link className="link" to="/">Search</Link>
                             </li>
