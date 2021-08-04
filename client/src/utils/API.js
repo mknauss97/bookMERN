@@ -7,18 +7,18 @@ export default {
     },
 
     getBooks: function () {
-        return axios.get('/api/books');
+        return axios.get('/api/book');
     },
 
     getBook: function (id) {
-        return axios.get('/api/books/' + id);
+        return axios.get('/api/book/' + id);
     },
 
     saveBook: function (savedBooks) {
-        return axios.post('/api/books/', savedBooks);
+        return axios.post('/api/book/', savedBooks);
     },
 
     deleteBook: function (id) {
-        return axios.delete('/api/books/' + id)
+        return axios.delete('/api/book/' + id)
     }
 }
