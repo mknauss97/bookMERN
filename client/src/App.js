@@ -7,7 +7,7 @@ import Saved from './pages/Saved';
 function App() {
   return (
     <Router>
-      <div>
+      <div className="image">
         <Route exact path='/' component={Search} />
         <Route exact path='/saved' component={Saved} />
       </div>

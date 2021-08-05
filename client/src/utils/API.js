@@ -15,6 +15,7 @@ export default {
     },
 
     saveBook: function (savedBooks) {
+        console.log("savedBooks", savedBooks)
         return axios.post('/api/book/', savedBooks);
     },
 
