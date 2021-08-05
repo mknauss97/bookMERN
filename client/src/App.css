@@ -3,13 +3,7 @@
 }
 
 .image {
-  background: url(https://media.istockphoto.com/vectors/books-seamless-pattern-vector-id470721440?k=6&m=470721440&s=612x612&w=0&h=OtHvCXQICZ0hXiJJT0tWYrwZznqYw_ncU307tQDrDUA=);
-  background-size: cover;
-  background-repeat: no-repeat;
-  height:100%;
-  min-height: 1000px;
-  background-position: center;
-  background-attachment: fixed;
+  background-image: linear-gradient(to left, yellow, white, rgb(35, 155, 185));
 }
 .App-logo {
   height: 40vmin;
